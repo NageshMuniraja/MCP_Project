@@ -1,0 +1,8 @@
+# Core MCP Python SDK (server + client). Includes the FastMCP helper.
+mcp>=1.25.0
+
+# Anthropic SDK — used by client.py so Claude can decide when to call tools.
+anthropic>=0.105.0
+
+# Loads ANTHROPIC_API_KEY from a local .env file (optional but convenient).
+python-dotenv>=1.0.0

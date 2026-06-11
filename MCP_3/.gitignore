@@ -1,0 +1,11 @@
+# Secrets — never commit your real key
+.env
+
+# Local notes "database" created at runtime
+notes_db.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
